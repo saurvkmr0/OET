@@ -11,7 +11,7 @@ const Container = () => {
         <Navbar />
         <HeroSection />
         <Course />
-        <FAQ />
+        {/* <FAQ /> */}
         
     </div>
   )
