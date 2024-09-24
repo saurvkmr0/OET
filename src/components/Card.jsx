@@ -3,9 +3,9 @@ import React from 'react'
 const Card = (prop) => {
   return (
     <div>
-        <div class="card">
+        <div class="card rounded-md drop-shadow-lg">
         <div class="card-img">
-            <img src={prop.image} />
+            <img src={prop.image} className='rounded-md'/>
         </div>
         <div class="card-info">
             <p class="text-title">{prop.title}</p>

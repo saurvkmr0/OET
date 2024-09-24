@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth; 
+  }
+
 *{
     font-family:Lato;
 }
@@ -32,14 +36,16 @@ background: linear-gradient(180deg, rgba(200,235,255,1) 0%, rgba(59,105,131,1) 8
 }
 
 
+
 /* card css */
 .card {
     width: 350px;
     height: auto;
     padding: .8em;
-    background: #f5f5f5;
+    background: #c2e5f9;
     overflow: visible;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 1px solid #024B6A;
    }
    
    .card-img {
@@ -116,28 +122,7 @@ background: linear-gradient(180deg, rgba(200,235,255,1) 0%, rgba(59,105,131,1) 8
   }
 }
    
-   /* Button
-   .card-button {
-    border: 1px solid #252525;
-    display: flex;
-    padding: .3em;
-    cursor: pointer;
-    border-radius: 50px;
-    transition: .3s ease-in-out;
-    width:40px;
-    height:40px;
-   }
-   
-   /*Hover*/
-   /* .card-img:hover {
-    transform: translateY(-25%);
-    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
-   } */
-   
-   /* .card-button:hover {
-    border: 1px solid #ffcaa6;
-    background-color: #024B6A;
-   } */ 
+
    
 
 

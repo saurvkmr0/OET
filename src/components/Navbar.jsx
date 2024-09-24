@@ -35,25 +35,25 @@ const Navbar = () => {
           <div className="hidden md:flex items-center justify-center flex-1 z-20">
             <div className="flex space-x-6">
               <a
-                href="#"
+                href="#home"
                 className="text-[#024B6A] hover:bg-[#88D2F2] hover:font-bold rounded-[10px] px-3 py-2 text-2xl font-normal"
               >
                 Home
               </a>
               <a
-                href="#"
+                href="#course"
                 className="text-[#024B6A] hover:bg-[#88D2F2] hover:font-bold rounded-[10px] px-3 py-2 text-2xl font-normal"
               >
                 Course
               </a>
               <a
-                href="#"
+                href="#testimonial"
                 className="text-[#024B6A] hover:bg-[#88D2F2] hover:font-bold rounded-[10px] px-3 py-2 text-2xl font-normal"
               >
                 Testimonial
               </a>
               <a
-                href="#"
+                href="#FAQ"
                 className="text-[#024B6A] hover:bg-[#88D2F2] hover:font-bold rounded-[10px] px-3 py-2 text-2xl font-normal"
               >
                 FAQ
@@ -64,7 +64,7 @@ const Navbar = () => {
           {/* Sign In Button */}
           <div className="hidden md:flex items-center z-20">
             <a
-              href="#"
+              href="#signin"
               className="text-[#024B6A] hover:bg-[#88D2F2] hover:font-bold hover:border-2 px-4 py-2 border border-[#024B6A] rounded-md text-xl font-normal"
             >
               Sign In
@@ -120,25 +120,25 @@ const Navbar = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <a
-              href="#"
+              href="#home"
               className="text-[#024B6A] hover:bg-[#88D2F2] block px-3 py-2 rounded-md text-base font-normal hover:font-medium"
             >
               Home
             </a>
             <a
-              href="#"
+              href="#course"
               className="text-[#024B6A] hover:bg-[#88D2F2] block px-3 py-2 rounded-md text-base font-normal hover:font-medium"
             >
               Course
             </a>
             <a
-              href="#"
+              href="#testimonial"
               className="text-[#024B6A] hover:bg-[#88D2F2] block px-3 py-2 rounded-md text-base font-normal hover:font-medium"
             >
               Testimonial
             </a>
             <a
-              href="#"
+              href="#FAQ"
               className="text-[#024B6A] hover:bg-[#88D2F2] block px-3 py-2 rounded-md text-base font-normal hover:font-medium"
             >
               FAQ

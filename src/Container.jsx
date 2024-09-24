@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Course from './components/Course';
 import FAQ from './components/FAQ';
+import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 
 const Container = () => {
@@ -11,7 +13,9 @@ const Container = () => {
         <Navbar />
         <HeroSection />
         <Course />
-        {/* <FAQ /> */}
+        <Testimonials />
+        <FAQ />
+        <Footer />
         
     </div>
   )

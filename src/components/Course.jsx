@@ -8,7 +8,7 @@ const Course = () => {
     {
       title:"Module 2: Medical English – The Patient Interview I",
       image:"https://promedicalenglish.com/wp-content/uploads/2021/03/Speaking-4-750x500.jpg",
-      description:"In Module 2, you will Greet your patient appropriately Record accurate details about family and social",
+      description:"In Module 2, you will Greet your patient appropriately Record accurate details about family",
       price:"$9.99"
     },
     {
@@ -33,14 +33,14 @@ const Course = () => {
 
   return (
     // bg-[#69a4c5]
-    <div className='course-gradient z-[100] mt-10 rounded-xl mx-4 md:mx-8 '>
-      <div className="bg-white max-w-[100%] rounded-xl z-50">
+    <div id="course" className='course-gradient z-[100] mt-10 rounded-xl mx-4 md:mx-8 '>
+      <div className="bg-white max-w-[100%] rounded-xl z-50 pb-8">
         <img src='https://promedicalenglish.com/wp-content/uploads/2023/05/4-1.png' className='rounded-t-lg' />
-        <div className="text-center text-[4rem] md:text-[6rem] font-bold text-[#024B6A]">
+        <div className="text-center text-6xl md:text-[6rem] font-bold text-[#024B6A] py-8">
           Courses
         </div>
         <div className="flex justify-center">
-          <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto">
+          <div className="grid gap-6 grid-cols-1 card-xs:grid-cols-2 card-sm:grid-cols-3 card-lg:grid-cols-4 mx-auto">
           {cardArr.map((item) => {
             return <Card key={item.title} title={item.title} image={item.image} description={item.description} price={item.price}/>
           })}
