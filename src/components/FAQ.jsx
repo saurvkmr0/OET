@@ -5,7 +5,7 @@ import { Accordion, AccordionTab } from 'primereact/accordion';
 const FAQ = () => {
   return (
     <div id="FAQ" className="flex justify-center items-center bg-gray-50 rounded-xl mx-4 md:mx-8 p-4 mt-8 "> 
-      <div className="flex flex-col rounded-xl mt-8 bg-white shadow-lg max-w-[1200px] w-full"> 
+      <div className="flex flex-col rounded-xl mt-8 bg-white max-w-[1200px] w-full"> 
         <h2 className="text-5xl md:text-[5rem] font-bold text-[#024B6A] mb-8 text-center">Frequently Asked Questions</h2>
         <Accordion activeIndex={0}>
           <AccordionTab header="What are the payment methods ?" className='w-full text-2xl text-[#024B6A] bg-[#c2e5f9] p-4 mb-8 rounded-xl'>

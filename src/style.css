@@ -8,6 +8,7 @@ html {
 
 *{
     font-family:Lato;
+    text-decoration: none !important;
 }
 
 .custom-stroke {
@@ -20,7 +21,16 @@ html {
     background: linear-gradient(90deg, rgba(0,0,0,1) 13%, rgba(69,69,69,1) 100%);
 }
 
+a{
+  color:#024B6A !important;
+}
 
+a.btn{
+  border: 2px solid #024B6A !important;
+}
+a.btn:hover{
+  background: #88D2F2;
+}
 
 .course-gradient{
     /* background-image: url('./assets/grainy-bg.jpg');

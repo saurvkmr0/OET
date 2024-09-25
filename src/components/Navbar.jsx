@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center z-20">
             <a
               href="#signin"
-              className="text-[#024B6A] hover:bg-[#88D2F2] hover:font-bold hover:border-2 px-4 py-2 border border-[#024B6A] rounded-md text-xl font-normal"
+              className="btn text-[#024B6A] !hover:bg-[#88D2F2] hover:font-bold hover:border-2 px-4 py-2 border border-[#024B6A] rounded-md text-xl font-normal"
             >
               Sign In
             </a>

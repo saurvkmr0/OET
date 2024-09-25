@@ -12,6 +12,8 @@ module.exports = {
       'lg': '1024px',  // Large devices (large desktops, 1024px and up)
       'xl': '1280px',  // Extra large devices (larger desktops, 1280px and up)
       '2xl': '1536px', // 2x extra large devices (larger desktops, 1536px and up)
+
+      'vsm': '150px',
     },
     extend: {},
   },

@@ -16,7 +16,7 @@ const EmailInput = () => {
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        className="input-gradient text-white text-lg relative  w-[250px] sm:w-[400px] h-[50px] px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        className="input-gradient text-white text-lg relative  w-[250px] vsm:w-[200px] sm:w-[400px] h-[50px] px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         placeholder="Enter your email"
         required
       />
