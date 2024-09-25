@@ -7,23 +7,23 @@ import { PiDotBold } from "react-icons/pi";
 
 const Footer = () => {
   return (
-    <div className='flex flex-col items-center py-12 gap-2'>
+    <div className='footer flex flex-col items-center py-12 gap-2'>
         <div className="text-white flex gap-4">
-            <CiFacebook className="w-12 h-12" />
-            <AiFillTwitterCircle className="w-12 h-12" />
-            <FaInstagram className="w-12 h-12" />
+            <CiFacebook className="w-12 h-12 hover:text-yellow-500" />
+            <AiFillTwitterCircle className="w-12 h-12 hover:text-yellow-500" />
+            <FaInstagram className="w-12 h-12 hover:text-yellow-500" />
         </div>
         <div className="flex gap-1 items-center text-white text-lg">
-            <p>About</p>
+            <p className='hover:text-yellow-500'>About</p>
             <PiDotBold />
-            <p>Support</p>
+            <p className='hover:text-yellow-500'>Support</p>
             <PiDotBold />
-            <p>Contact</p>
+            <p className='hover:text-yellow-500'>Contact</p>
         </div>
         <div className="flex gap-1 items-center text-white text-lg">
-            <p>Terms of Use</p>
+            <p className='hover:text-yellow-500'>Terms of Use</p>
             <PiDotBold />
-            <p>Privacy Policy</p>
+            <p className='hover:text-yellow-500'>Privacy Policy</p>
         </div>
     </div>
   )

@@ -4,6 +4,7 @@ import { CCarouselCaption } from '@coreui/react';
 import { CCarouselItem } from '@coreui/react';
 import img from '../assets/grainy-bg.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { FaStar } from "react-icons/fa6";
 
 import doctor1 from '../assets/doctor1.jpg'
 import doctor2 from '../assets/doctor2.jpg'
@@ -29,6 +30,13 @@ const Testimonials = () => {
             <div className="vsm:text-center sm:text-center md:text-left">
               <p className='text-xl  sm:text-3xl md:text-4xl text-white font-semibold'>Ramkrishna Joshi</p>
               <p className='text-base sm:text-lg'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <div className="flex md:justify-start justify-center">
+                <FaStar className='text-yellow-500'/>
+                <FaStar className='text-yellow-500'/>
+                <FaStar className='text-yellow-500'/>
+                <FaStar className='text-yellow-500'/>
+                <FaStar className='text-white'/>
+              </div>
             </div>
           </div>
         </div>
@@ -43,6 +51,13 @@ const Testimonials = () => {
             <div className="vsm:text-center sm:text-center md:text-left">
               <p className='text-xl  sm:text-3xl md:text-4xl text-white font-semibold'>Dr. Andrew Samuale</p>
               <p className='text-base sm:text-lg'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <div className="flex md:justify-start justify-center">
+                <FaStar className='text-yellow-500'/>
+                <FaStar className='text-yellow-500'/>
+                <FaStar className='text-yellow-500'/>
+                <FaStar className='text-white'/>
+                <FaStar className='text-white'/>
+              </div>
             </div>
           </div>
         </div>

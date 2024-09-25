@@ -32,6 +32,10 @@ a.btn:hover{
   background: #88D2F2;
 }
 
+.footer p{
+  margin-bottom:0;
+}
+
 .course-gradient{
     /* background-image: url('./assets/grainy-bg.jpg');
     background-size: cover; */
